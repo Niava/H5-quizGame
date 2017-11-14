@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 QUIZ</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="container">
+		<header>
+			<div class="pull-left">HTML5 Quiz</div>
+			<div class="pull-right">Mengqiu Niu</div>
+		</header>
+
+		<main>
+			<form class="questionForm" id="q1" data-question="1">
+				<h3>1. Is it illegal to catch mice?</h3>
+				<ul>
+					<li><input id="100" type="radio" name="q1" value="a" /><label for="100">A. In Ohio it is, if done without a hunting license!</label></li>
+					<li><input id="101" type="radio" name="q1" value="b" /><label for="101">B. Yes, they are too cute to be hunted.</label></li>
+					<li><input id="102" type="radio" name="q1" value="c" /><label for="102">C. No, ask your kitten.</label></li>
+					<li><input id="103" type="radio" name="q1" value="d" /><label for="103">D. I don't know.</label></li>
+				</ul>
+				<button id="submit">Submit</button>
+			</form>
+
+			<form class="questionForm" id="q2" data-question="2">
+				<h3>2. Where was the fortune cookie actually invented?</h3>
+				<ul>
+					<li><input id="200" type="radio" name="q2" value="a" /><label for="200">A. China.</label></li>
+					<li><input id="201" type="radio" name="q2" value="b" /><label for="201">B. America.</label></li>
+					<li><input id="202" type="radio" name="q2" value="c" /><label for="202">C. Africa.</label></li>
+					<li><input id="203" type="radio" name="q2" value="d" /><label for="203">D. Australia.</label></li>
+				</ul>
+				<button id="submit">Submit</button>
+			</form>
+
+			<form class="questionForm" id="q3" data-question="3">
+				<h3>3. How many eggs does a female mackerel lay at a time?</h3>
+				<ul>
+					<li><input id="300" type="radio" name="q3" value="a" /><label for="300">A. 400,000.</label></li>
+					<li><input id="301" type="radio" name="q3" value="b" /><label for="301">B. 500,000.</label></li>
+					<li><input id="302" type="radio" name="q3" value="c" /><label for="302">C. 600,000.</label></li>
+					<li><input id="303" type="radio" name="q3" value="d" /><label for="303">D. 700,000.</label></li>
+				</ul>
+				<button id="submit">Submit</button>
+			</form>
+
+			<form class="questionForm" id="q4" data-question="4">
+				<h3>4. You should wait at least an hour after eating to go swimming.</h3>
+				<ul>
+					<li><input id="400" type="radio" name="q4" value="a" /><label for="400">A. True.</label></li>
+					<li><input id="401" type="radio" name="q4" value="b" /><label for="401">B. False.</label></li>
+					<li><input id="402" type="radio" name="q4" value="c" /><label for="402">C. I don't know.</label></li>
+					<li><input id="403" type="radio" name="q4" value="d" /><label for="403">D. I can't swim.</label></li>
+				</ul>
+				<button id="submit">Submit</button>
+			</form>
+
+			<form class="questionForm" id="q5" data-question="5">
+				<h3>5. Unicorns are extinct.</h3>
+				<ul>
+					<li><input id="500" type="radio" name="q5" value="a" /><label for="500">A. True.</label></li>
+					<li><input id="501" type="radio" name="q5" value="b" /><label for="501">B. False.</label></li>
+					<li><input id="502" type="radio" name="q5" value="c" /><label for="502">C. I don't know.</label></li>
+					<li><input id="503" type="radio" name="q5" value="d" /><label for="503">D. What is Unicorns?</label></li>
+				</ul>
+				<button id="submit">Submit</button>
+			</form>
+
+			<div id="results"></div>
+			<br />
+		</main>
+
+
+
+		<footer>
+			<div class="pull-left">Total: 5 Questions</div>
+			<div class="pull-right">Time: 2:33</div>
+		</footer>
+
+	</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="js/quiz.js"></script>
+</body>
+</html>

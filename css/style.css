@@ -1,0 +1,55 @@
+body{
+	font-family: arial;
+	font-size: 15px;
+	line-height: 1.6em;
+	background: #f4f4f4;
+}
+
+li{
+	list-style: none;
+}
+
+.container{
+	width: 70%;
+	margin: 20px auto;
+	overflow: auto;
+}
+
+.pull-left{
+	float:left;
+}
+
+.pull-right{
+	float:right;
+}
+
+header,
+footer{
+	background:rgb(145, 205, 197);
+	color:#fff;
+	padding:5px 10px;
+	overflow: auto;
+	font-size: 16px;
+}
+
+footer{
+	font-size: 15px;
+	text-align: center;
+}
+
+button#submit {
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    border:none;
+    background: rgb(30, 138, 203);
+    color: #fff;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 900px) {
+	.container{
+		width:95%;
+		margin:0 auto;
+	}
+}
